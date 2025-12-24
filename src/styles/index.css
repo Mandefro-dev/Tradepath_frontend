@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+   html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #020617; /* bg-dark-950 */
+  }
+  body {
+    @apply bg-dark-950 text-light antialiased font-sans;
+  }
+  /* Custom scrollbar for a modern feel */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-dark-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-dark-700 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-text;
+  }
+}
+@layer utilities {
+  .bg-muted-text {
+    background-color: #666666; /* or a color of your choice */
+  }
+}

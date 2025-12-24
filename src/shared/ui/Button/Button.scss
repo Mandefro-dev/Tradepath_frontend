@@ -1,0 +1,113 @@
+
+// /* frontend/src/shared/ui/Button/Button.scss */
+// @import '@/shared/scss/variables'; // Assuming this has your color vars like $tp-primary
+
+// .btn {
+//   display: inline-flex;
+//   align-items: center;
+//   justify-content: center;
+//   font-weight: 500;
+//   border-radius: $border-radius-md;
+//   cursor: pointer;
+//   transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+//   padding: $spacing-sm $spacing-md;
+//   border: 1px solid transparent;
+//   text-decoration: none; // For Link components styled as buttons
+//   white-space: nowrap;
+
+//   &:disabled, &.btn--loading {
+//     opacity: 0.6;
+//     cursor: not-allowed;
+//   }
+
+//   &__text {
+//     // display: inherit;
+//     // align-items: inherit;
+//     // justify-content: inherit;
+//   }
+
+//   &__icon {
+//     display: inline-flex;
+//     align-items: center;
+//     &--left {
+//       margin-right: $spacing-sm;
+//     }
+//     &--right {
+//       margin-left: $spacing-sm;
+//     }
+//     svg { // If icons are SVGs
+//         width: 1em;
+//         height: 1em;
+//     }
+//   }
+
+//   // Variants
+//   &--primary {
+//     background-color: var(--tp-primary, #0ea5e9); // Use CSS var with fallback
+//     color: white;
+//     border-color: var(--tp-primary, #0ea5e9);
+//     &:hover:not(:disabled):not(.btn--loading) {
+//       background-color: var(--tp-primary-hover, #0284c7);
+//       border-color: var(--tp-primary-hover, #0284c7);
+//     }
+//   }
+
+//   &--secondary {
+//     background-color: var(--tp-surface, #334155);
+//     color: var(--tp-text-primary, #e2e8f0);
+//     border-color: var(--tp-border, #475569);
+//     &:hover:not(:disabled):not(.btn--loading) {
+//       background-color: lighten(#334155, 5%); // Example, use CSS var if possible
+//       border-color: lighten(#475569, 10%);
+//     }
+//   }
+  
+//   &--danger {
+//     background-color: var(--tp-error, #ef4444);
+//     color: white;
+//     border-color: var(--tp-error, #ef4444);
+//      &:hover:not(:disabled):not(.btn--loading) {
+//       background-color: darken(#ef4444, 10%);
+//       border-color: darken(#ef4444, 10%);
+//     }
+//   }
+
+//   &--ghost {
+//     background-color: transparent;
+//     color: var(--tp-primary, #0ea5e9);
+//     border-color: transparent;
+//      &:hover:not(:disabled):not(.btn--loading) {
+//       background-color: rgba(var(--tp-primary-rgb, 14, 165, 233), 0.1); // Assuming --tp-primary-rgb
+//     }
+//   }
+
+//   // Sizes
+//   &--sm {
+//     padding: $spacing-xs $spacing-sm;
+//     font-size: 0.875rem;
+//   }
+//   &--md {
+//     padding: $spacing-sm $spacing-md;
+//     font-size: 0.95rem;
+//   }
+//   &--lg {
+//     padding: $spacing-md $spacing-lg;
+//     font-size: 1.05rem;
+//   }
+
+//   // Loader
+//   &__loader {
+//     width: 1em;
+//     height: 1em;
+//     border: 2px solid currentColor;
+//     border-right-color: transparent;
+//     border-radius: 50%;
+//     animation: btn-spin 0.6s linear infinite;
+//   }
+// }
+
+// @keyframes btn-spin {
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }

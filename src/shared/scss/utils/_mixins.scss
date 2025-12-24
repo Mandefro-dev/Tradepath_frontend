@@ -1,0 +1,25 @@
+@mixin flex-center($direction: row) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+  }
+  
+  @mixin focus-ring($color: theme('colors.tp-primary.DEFAULT')) {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px rgba($color, 0.5); // Use theme() for Tailwind colors
+  }
+  
+  // Example mixin for visually hidden (accessibility)
+  @mixin sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }

@@ -1,0 +1,10 @@
+// frontend/jsconfig.json
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      }, "jsx": "react-jsx" 
+    },
+    "exclude": ["node_modules", "dist"]
+  }

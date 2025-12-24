@@ -1,0 +1,118 @@
+// /* frontend/src/shared/layouts/LandingLayout.scss */
+// @import "../../shared/scss/variable"; // Your SCSS variables
+
+// .landing-layout-container {
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 100vh;
+//   background-color: theme('colors.tp-bg-dark'); // Using Tailwind theme helper
+// }
+
+// .landing-header {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   padding: $spacing-md $spacing-xl;
+//   background-color: rgba(theme('colors.tp-bg-dark'), 0.8);
+//   backdrop-filter: blur(10px);
+//   border-bottom: 1px solid theme('colors.tp-border');
+//   position: fixed; // Changed to fixed for modern feel
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   z-index: $z-index-sticky; // Use SCSS variable
+
+//   .logo {
+//     font-size: 1.75rem;
+//     font-weight: 700;
+//     color: theme('colors.tp-primary');
+//     text-decoration: none;
+//     display: flex;
+//     align-items: center;
+//     gap: $spacing-sm;
+//     .logo-icon {
+//         font-size: 1.5em; // Relative to parent font-size
+//     }
+//   }
+
+//   nav {
+//     display: flex;
+//     align-items: center;
+//     gap: $spacing-md;
+//   }
+
+//   .nav-link {
+//     color: theme('colors.tp-text-secondary');
+//     text-decoration: none;
+//     font-weight: 500;
+//     transition: color 0.2s ease;
+//     padding: $spacing-xs $spacing-sm;
+
+//     &:hover {
+//       color: theme('colors.tp-text-primary');
+//     }
+//   }
+
+//   .nav-button {
+//     padding: $spacing-sm $spacing-md;
+//     border-radius: $border-radius-md;
+//     font-weight: 500;
+//     transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+//     border: 1px solid transparent;
+
+//     &--secondary {
+//       border-color: theme('colors.tp-primary');
+//       color: theme('colors.tp-primary');
+//       &:hover {
+//         background-color: rgba(theme('colors.tp-primary.DEFAULT'), 0.1);
+//       }
+//     }
+//     &--primary {
+//       background-color: theme('colors.tp-primary');
+//       color: white; // Or a very light text color from your theme
+//       border-color: theme('colors.tp-primary');
+//       &:hover {
+//         background-color: theme('colors.tp-primary-hover');
+//         border-color: theme('colors.tp-primary-hover');
+//       }
+//     }
+//   }
+// }
+
+// .landing-main-content {
+//   flex-grow: 1;
+//   padding-top: 80px; // Adjust based on actual header height
+// }
+
+// .landing-footer {
+//   padding: $spacing-lg $spacing-xl;
+//   background-color: theme('colors.tp-bg-light');
+//   border-top: 1px solid theme('colors.tp-border');
+//   color: theme('colors.tp-text-secondary');
+//   font-size: 0.875rem;
+
+//   .footer-content {
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     gap: $spacing-sm;
+//     @media (min-width: 768px) {
+//         flex-direction: row;
+//         justify-content: space-between;
+//     }
+//   }
+
+//   .footer-links {
+//     a {
+//       color: theme('colors.tp-text-secondary');
+//       &:hover {
+//         color: theme('colors.tp-primary');
+//       }
+//     }
+//     span {
+//         margin: 0 $spacing-xs;
+//     }
+//   }
+// }

@@ -1,0 +1,75 @@
+// /* frontend/src/shared/ui/Input/Input.scss */
+// @import '@/shared/scss/variables';
+// @import '@/shared/scss/utils/mixins'; // For focus-ring
+
+// .input-wrapper {
+//   position: relative;
+//   display: flex;
+//   align-items: center;
+//   width: 100%;
+//   background-color: var(--tp-surface, #334155);
+//   border: 1px solid var(--tp-border, #475569);
+//   border-radius: $border-radius-md;
+//   transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+//   &:focus-within {
+//     border-color: var(--tp-primary, #0ea5e9);
+//     @include focus-ring(var(--tp-primary, #0ea5e9));
+//   }
+
+//   &--error {
+//     border-color: var(--tp-error, #ef4444);
+//     &:focus-within {
+//       @include focus-ring(var(--tp-error, #ef4444));
+//     }
+//   }
+//   &--disabled {
+//     opacity: 0.6;
+//     cursor: not-allowed;
+//     .input-field {
+//         cursor: not-allowed;
+//     }
+//   }
+// }
+
+// .input-field {
+//   width: 100%;
+//   background: none;
+//   border: none;
+//   outline: none;
+//   padding: $spacing-sm $spacing-md;
+//   color: var(--tp-text-primary, #e2e8f0);
+//   font-size: 0.95rem;
+
+//   &::placeholder {
+//     color: var(--tp-text-secondary, #94a3b8);
+//     opacity: 0.7;
+//   }
+
+//   &--with-left-icon {
+//     padding-left: calc(#{$spacing-md} + #{$spacing-lg}); // Adjust based on icon size
+//   }
+//   &--with-right-icon {
+//     padding-right: calc(#{$spacing-md} + #{$spacing-lg});
+//   }
+// }
+
+// .input-icon {
+//   position: absolute;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   color: var(--tp-text-secondary, #94a3b8);
+//   height: 100%;
+  
+//   &--left {
+//     left: $spacing-md;
+//   }
+//   &--right {
+//     right: $spacing-md;
+//   }
+//   svg {
+//     width: 1.1em;
+//     height: 1.1em;
+//   }
+// }

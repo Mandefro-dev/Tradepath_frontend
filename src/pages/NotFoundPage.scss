@@ -1,0 +1,50 @@
+// @import '@/shared/scss/variables';
+
+// .not-found-container {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   min-height: calc(100vh - 100px); // Adjust if you have fixed header/footer
+//   text-align: center;
+//   padding: $spacing-xl;
+//   color: theme('colors.tp-text-primary.DEFAULT');
+
+//   h1 {
+//     font-size: 6rem; // Large 404 text
+//     font-weight: 800;
+//     color: theme('colors.tp-primary.DEFAULT');
+//     margin-bottom: $spacing-sm;
+//     line-height: 1;
+//   }
+
+//   h2 {
+//     font-size: 1.75rem;
+//     font-weight: 600;
+//     margin-bottom: $spacing-md;
+//     color: theme('colors.tp-text-primary.DEFAULT');
+//   }
+
+//   p {
+//     font-size: 1rem;
+//     color: theme('colors.tp-text-secondary.DEFAULT');
+//     margin-bottom: $spacing-lg;
+//     max-width: 450px;
+//   }
+
+//   .home-button {
+//     // Use Button component styles if possible, or replicate primary button style
+//     display: inline-block;
+//     background-color: theme('colors.tp-primary.DEFAULT');
+//     color: white;
+//     padding: $spacing-md $spacing-xl;
+//     border-radius: $border-radius-md;
+//     text-decoration: none;
+//     font-weight: 500;
+//     transition: background-color 0.2s ease;
+
+//     &:hover {
+//       background-color: theme('colors.tp-primary-hover.DEFAULT');
+//     }
+//   }
+// }

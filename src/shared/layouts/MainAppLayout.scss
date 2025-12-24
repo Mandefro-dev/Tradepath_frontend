@@ -1,0 +1,52 @@
+// /* frontend/src/shared/layouts/MainAppLayout.module.scss */
+// @import "../../../shared//scss/_variable";
+// .mainAppLayout {
+//     display: flex;
+//     flex-direction: column;
+//     min-height: 100vh;
+//     background-color: var(--color-background-dark); // Main page background
+//   }
+  
+//   .appContent {
+//     flex-grow: 1;
+//     padding: var(--spacing-lg); // Or adjust as per your design
+//     // Potentially max-width and margin:auto for centered content area
+//     // max-width: 1400px;
+//     // margin: 0 auto;
+//     // width: 100%;
+//   }
+  
+//   .appFooter {
+//     padding: var(--spacing-md);
+//     text-align: center;
+//     background-color: var(--color-background-light);
+//     border-top: 1px solid var(--color-border);
+//     color: var(--color-text-secondary);
+//     font-size: 0.85rem;
+//   }
+//   @import '@/shared/scss/variables';
+
+// .main-app-layout {
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 100vh;
+//   background-color: theme('colors.tp-bg-dark.DEFAULT');
+// }
+
+// .app-body {
+//   display: flex;
+//   flex-grow: 1;
+//   // If you have a sidebar, the main content area will need to adjust
+//   // For example, if sidebar is fixed width:
+//   // padding-left: $sidebar-width; (if sidebar is on the left)
+// }
+
+// .app-content-area {
+//   flex-grow: 1;
+//   padding: $spacing-lg;
+//   // For a centered content look on wider screens:
+//   // max-width: 1600px;
+//   // margin: 0 auto;
+//   // width: 100%;
+//   overflow-y: auto; // If content might overflow
+// }

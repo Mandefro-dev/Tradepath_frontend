@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-width: 0; // Tailwind often resets this, but good to have
+  border-style: solid; // Tailwind often resets this
+  border-color: theme('borderColor.DEFAULT', currentColor); // Tailwind default border color
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5; // Tailwind's default
+  font-family: theme('fontFamily.sans'); // From Tailwind
+}
+
+body {
+  // Background and base text color are applied by Tailwind via index.css
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a {
+  color: theme('colors.tp-primary.DEFAULT', #0ea5e9); // Tailwind primary color
+  text-decoration: none; // Usually handled by Tailwind base or utilities
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,72 @@
+// /* frontend/src/features/Auth/ui/AuthForms.module.scss */
+// @import "../../../shared//scss/variable";
+// .authForm {
+//     background-color: var(--color-background-light); // e.g., slate-800
+//     padding: var(--spacing-xl);
+//     border-radius: var(--border-radius-md);
+//     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+//     width: 100%;
+//     max-width: 420px;
+//     text-align: center;
+  
+  
+
+//     // This class is applied to the motion.div in each form component
+//       // Styles from previous response for .authForm can go here if not handled by AuthLayout's card
+//       // e.g., background-color, padding, border-radius, box-shadow, width, max-width, text-align
+//       // This ensures the form content itself is styled within the AuthLayout card.
+    
+//       h2 {
+//         color: theme('colors.tp-text-primary.DEFAULT');
+//         margin-bottom: $spacing-xs; // Tighter margin for heading within form
+//         font-size: 1.8rem; // Slightly smaller than page title
+//         font-weight: 600;
+//       }
+//       > p { // Direct paragraph children for subtitle
+//         color: theme('colors.tp-text-secondary.DEFAULT');
+//         margin-bottom: $spacing-lg;
+//         font-size: 0.95rem;
+//       }
+//     }
+    
+//     // Specific overrides or additions for elements within auth forms if needed
+//     .forgot-password-link {
+//       display: block;
+//       text-align: right;
+//       font-size: 0.875rem;
+//       color: theme('colors.tp-primary.DEFAULT');
+//       margin-top: calc(#{$spacing-xs} / 2); // Smaller margin
+//       margin-bottom: $spacing-sm; // Add some space before the next element if any
+//       &:hover {
+//         text-decoration: underline;
+//       }
+//     }
+    
+//     .submit-button { // If you want to style the submit button specifically within auth forms
+//       width: 100%;
+//       padding-top: $spacing-sm + 0.125rem; // Slightly taller buttons
+//       padding-bottom: $spacing-sm + 0.125rem;
+//       font-size: 1rem;
+//       font-weight: 500;
+//       margin-top: $spacing-md; // Space before the button
+//       // Assumes .btn--primary styles are applied from Button.scss
+//     }
+    
+//     .auth-link-container { // For the "Don't have an account? Sign up" link
+//       margin-top: $spacing-lg;
+//       font-size: 0.9rem;
+//       color: theme('colors.tp-text-secondary.DEFAULT');
+//       a {
+//         color: theme('colors.tp-primary.DEFAULT');
+//         font-weight: 500;
+//         &:hover {
+//           text-decoration: underline;
+//         }
+//       }
+//     }
+    
+//     // Styling for the "Check your email" message in ForgotPasswordForm
+//     .confirmation-message {
+//         h2 { margin-bottom: $spacing-md; }
+//         p { margin-bottom: $spacing-lg; line-height: 1.6; }
+//     }

@@ -1,0 +1,13 @@
+.loader-spinner {
+    border-radius: 50%;
+    animation: loader-spin 0.75s linear infinite;
+  }
+  
+  @keyframes loader-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
